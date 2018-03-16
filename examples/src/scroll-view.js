@@ -119,9 +119,9 @@
   content.setParent(view);
   let contentSprite = content.addComp('Image');
   contentSprite.color = color4.new(0.8, 0.8, 0.8, 1);
-  contentSprite.width = 500;
-  contentSprite.height = 700;
-  contentSprite.setPivot(1, 1);
+  contentSprite.width = 100;
+  contentSprite.height = 100;
+  contentSprite.setPivot(0, 1);
 
   let temp = app.createEntity('temp');
   temp.setParent(content);
